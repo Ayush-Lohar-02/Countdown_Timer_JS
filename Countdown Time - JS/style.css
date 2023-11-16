@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: #aadef6;
+}
+
+h2
+{
+    font-size: 5rem;
+    color: #3f3d56;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+.coming-soon
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.day, .hour, .minute, .second
+{
+    font-size: 3.5rem;
+}
+
+.calender 
+{
+    height: 65vh;
+}
